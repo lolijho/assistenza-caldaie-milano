@@ -11,3 +11,12 @@
 - [x] Footer con informazioni aziendali
 - [x] Design responsive per mobile e desktop
 - [x] Ottimizzazione SEO per ricerche locali
+
+## Nuove funzionalità richieste
+
+- [x] Pagina dedicata per assistenza caldaie Vaillant
+- [x] Pagina dedicata per assistenza caldaie Baxi
+- [x] Pagina dedicata per assistenza caldaie Junkers
+- [x] Pagina dedicata per assistenza caldaie Sylber
+- [x] Aggiornamento navigazione con link alle pagine marchi
+- [x] Aggiornamento routing in App.tsx

@@ -7,6 +7,7 @@ import Footer from "@/components/Footer";
 import { Clock, Shield, Wrench, CheckCircle, Phone, Mail, User } from "lucide-react";
 import { useState } from "react";
 import { toast } from "sonner";
+import { Link } from "wouter";
 
 export default function Home() {
   const [formData, setFormData] = useState({
@@ -144,19 +145,21 @@ export default function Home() {
 
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-4xl mx-auto">
               {[
-                { nome: "Vaillant", colore: "bg-red-500" },
-                { nome: "Baxi", colore: "bg-blue-600" },
-                { nome: "Junkers", colore: "bg-orange-500" },
-                { nome: "Sylber", colore: "bg-gray-700" }
+                { nome: "Vaillant", colore: "bg-red-500", link: "/vaillant" },
+                { nome: "Baxi", colore: "bg-blue-600", link: "/baxi" },
+                { nome: "Junkers", colore: "bg-orange-500", link: "/junkers" },
+                { nome: "Sylber", colore: "bg-gray-700", link: "/sylber" }
               ].map((marchio, index) => (
-                <Card key={index} className="hover:shadow-lg transition-shadow">
-                  <CardContent className="pt-6 text-center">
-                    <div className={`h-20 w-20 rounded-full ${marchio.colore} mx-auto mb-4 flex items-center justify-center`}>
-                      <span className="text-white font-bold text-2xl">{marchio.nome[0]}</span>
-                    </div>
-                    <h3 className="font-semibold text-lg">{marchio.nome}</h3>
-                  </CardContent>
-                </Card>
+                <Link key={index} href={marchio.link}>
+                  <Card className="hover:shadow-lg transition-shadow cursor-pointer">
+                    <CardContent className="pt-6 text-center">
+                      <div className={`h-20 w-20 rounded-full ${marchio.colore} mx-auto mb-4 flex items-center justify-center`}>
+                        <span className="text-white font-bold text-2xl">{marchio.nome[0]}</span>
+                      </div>
+                      <h3 className="font-semibold text-lg">{marchio.nome}</h3>
+                    </CardContent>
+                  </Card>
+                </Link>
               ))}
             </div>
 
