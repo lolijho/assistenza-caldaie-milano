@@ -1,0 +1,3 @@
+# Reindirizza tutte le richieste all'index.html per supportare il routing client-side
+# Questo permette a Wouter di gestire le route come /vaillant, /baxi, etc.
+/*    /index.html   200

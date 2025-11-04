@@ -20,3 +20,11 @@
 - [x] Pagina dedicata per assistenza caldaie Sylber
 - [x] Aggiornamento navigazione con link alle pagine marchi
 - [x] Aggiornamento routing in App.tsx
+
+## Preparazione Deploy Netlify
+
+- [x] Creazione file netlify.toml con configurazioni build
+- [x] Creazione file _redirects per routing SPA
+- [x] Ottimizzazione configurazione build
+- [x] Verifica compatibilità e dipendenze
+- [x] Documentazione istruzioni deploy
