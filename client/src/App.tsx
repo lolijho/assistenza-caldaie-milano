@@ -11,8 +11,11 @@ import Junkers from "./pages/Junkers";
 import Sylber from "./pages/Sylber";
 import Blog from "./pages/Blog";
 import BlogArticle1 from "./pages/BlogArticle1";
+import Admin from "./pages/Admin";
+import AdminPages from "./pages/AdminPages";
 
 function Router() {
+  // make sure to consider if you need authentication for certain routes
   return (
     <Switch>
       <Route path={"/"} component={Home} />
@@ -22,6 +25,8 @@ function Router() {
       <Route path="/sylber" component={Sylber} />
       <Route path="/blog" component={Blog} />
       <Route path="/blog/come-scegliere-centro-assistenza-caldaie-milano" component={BlogArticle1} />
+      <Route path="/admin" component={Admin} />
+      <Route path="/admin/pages" component={AdminPages} />
       <Route path={"/404"} component={NotFound} />
       {/* Final fallback route */}
       <Route component={NotFound} />

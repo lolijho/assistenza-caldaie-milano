@@ -56,3 +56,37 @@
 
 - [x] Aggiunta immagine hero all'articolo
 - [x] Ottimizzazione layout articolo con immagine
+
+## Sistema CMS con Database
+
+### Fase 1: Upgrade Infrastruttura
+- [x] Upgrade progetto a web-db-user (server + database + auth)
+- [x] Configurazione database PostgreSQL
+- [x] Setup Drizzle ORM
+
+### Fase 2: Autenticazione
+- [x] Sistema login/logout
+- [x] Protezione route admin
+- [x] JWT token management
+
+### Fase 3: Schema Database
+- [x] Tabella contenuti pagine
+- [x] Tabella articoli blog
+- [x] Tabella utenti admin
+
+### Fase 4: API Backend
+- [x] API tRPC per CRUD contenuti
+- [x] Endpoint salvataggio pagine
+- [x] Endpoint gestione blog
+
+### Fase 5: Editor Frontend (Versione Base)
+- [x] Pagina admin principale
+- [x] Pagina gestione contenuti pagine
+- [x] Salvataggio diretto al database
+- [x] UI admin per gestione contenuti
+- [x] Link admin in header per utenti autenticati
+
+### Fase 6: Testing
+- [x] Test funzionalità editing
+- [x] Test sincronizzazione database
+- [x] Test autenticazione

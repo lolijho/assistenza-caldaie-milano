@@ -2,9 +2,11 @@ import { Button } from "@/components/ui/button";
 import { Menu, X, Phone } from "lucide-react";
 import { Link } from "wouter";
 import { useState } from "react";
+import { useAuth } from "@/_core/hooks/useAuth";
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const { user, isAuthenticated } = useAuth();
 
   const scrollToSection = (id: string) => {
     const element = document.getElementById(id);
@@ -32,6 +34,11 @@ export default function Header() {
             <Link href="/blog" className="text-sm font-medium hover:text-primary transition-colors">
               Blog
             </Link>
+            {isAuthenticated && user?.role === 'admin' && (
+              <Link href="/admin" className="text-sm font-medium hover:text-primary transition-colors">
+                Admin
+              </Link>
+            )}
             <button onClick={() => scrollToSection('servizi')} className="text-sm font-medium hover:text-primary transition-colors">
               Servizi
             </button>
