@@ -28,3 +28,11 @@
 - [x] Ottimizzazione configurazione build
 - [x] Verifica compatibilità e dipendenze
 - [x] Documentazione istruzioni deploy
+
+## Cambio Branding a Depa Service
+
+- [x] Aggiornamento logo e nome in Header
+- [x] Aggiornamento nome in Footer
+- [x] Aggiornamento titolo sito (VITE_APP_TITLE)
+- [x] Aggiornamento meta tags e SEO
+- [x] Verifica consistenza branding in tutte le pagine
