@@ -36,3 +36,10 @@
 - [x] Aggiornamento titolo sito (VITE_APP_TITLE)
 - [x] Aggiornamento meta tags e SEO
 - [x] Verifica consistenza branding in tutte le pagine
+
+## Cambio Branding a Cams Assistenza
+
+- [x] Aggiornamento logo e nome in Header (CA)
+- [x] Aggiornamento nome in Footer
+- [x] Aggiornamento titolo e meta tags
+- [x] Verifica consistenza in tutte le pagine

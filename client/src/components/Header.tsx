@@ -20,9 +20,9 @@ export default function Header() {
           <div className="flex items-center gap-2">
             <div className="flex items-center gap-2">
               <div className="h-8 w-8 rounded-lg bg-primary flex items-center justify-center">
-                <span className="text-primary-foreground font-bold text-lg">DS</span>
+                <span className="text-primary-foreground font-bold text-lg">CA</span>
               </div>
-              <span className="font-semibold text-lg">Depa Service</span>
+              <span className="font-semibold text-lg">Cams Assistenza</span>
             </div>
           </div>
 

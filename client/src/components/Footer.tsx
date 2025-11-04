@@ -8,9 +8,9 @@ export default function Footer() {
           <div>
             <div className="flex items-center gap-2 mb-4">
               <div className="h-8 w-8 rounded-lg bg-primary flex items-center justify-center">
-                <span className="text-primary-foreground font-bold text-lg">DS</span>
+                <span className="text-primary-foreground font-bold text-lg">CA</span>
               </div>
-              <span className="font-semibold">Depa Service</span>
+              <span className="font-semibold">Cams Assistenza</span>
             </div>
             <p className="text-sm text-muted-foreground">
               Servizio professionale di assistenza e riparazione caldaie a Milano. Specializzati in marchi premium con tecnici certificati.
@@ -46,7 +46,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t mt-8 pt-8 text-center text-sm text-muted-foreground">
-          <p>© {new Date().getFullYear()} Depa Service. Tutti i diritti riservati.</p>
+          <p>© {new Date().getFullYear()} Cams Assistenza. Tutti i diritti riservati.</p>
           <p className="mt-2 text-xs">
             Servizio indipendente specializzato. Non siamo affiliati con i produttori dei marchi assistiti.
           </p>
