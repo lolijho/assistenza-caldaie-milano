@@ -51,3 +51,8 @@
 - [x] Scrittura articolo "Come scegliere il miglior centro assistenza caldaie a Milano"
 - [x] Aggiornamento navigazione con link al blog
 - [x] Aggiornamento routing per blog
+
+## Miglioramento Articolo Blog
+
+- [x] Aggiunta immagine hero all'articolo
+- [x] Ottimizzazione layout articolo con immagine

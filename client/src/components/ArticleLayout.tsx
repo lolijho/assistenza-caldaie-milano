@@ -9,10 +9,11 @@ interface ArticleLayoutProps {
   date: string;
   readTime: string;
   category: string;
+  heroImage?: string;
   children: React.ReactNode;
 }
 
-export default function ArticleLayout({ title, date, readTime, category, children }: ArticleLayoutProps) {
+export default function ArticleLayout({ title, date, readTime, category, heroImage, children }: ArticleLayoutProps) {
   return (
     <div className="min-h-screen flex flex-col">
       <Header />
@@ -30,8 +31,21 @@ export default function ArticleLayout({ title, date, readTime, category, childre
           </div>
         </section>
 
+        {/* Hero Image */}
+        {heroImage && (
+          <section className="w-full">
+            <div className="container max-w-5xl px-0">
+              <img 
+                src={heroImage} 
+                alt={title}
+                className="w-full h-[400px] md:h-[500px] object-cover rounded-lg"
+              />
+            </div>
+          </section>
+        )}
+
         {/* Article Header */}
-        <section className="py-12 md:py-16">
+        <section className={heroImage ? "py-8 md:py-12" : "py-12 md:py-16"}>
           <div className="container max-w-4xl">
             <div className="mb-6">
               <span className="inline-block px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">

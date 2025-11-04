@@ -7,6 +7,7 @@ export default function BlogArticle1() {
       date="5 Novembre 2025"
       readTime="8 minuti"
       category="Guide"
+      heroImage="/blog-hero-assistenza.jpg"
     >
       <div className="space-y-6">
         <p className="lead text-xl text-muted-foreground">
