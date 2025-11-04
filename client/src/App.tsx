@@ -13,6 +13,7 @@ import Blog from "./pages/Blog";
 import BlogArticle1 from "./pages/BlogArticle1";
 import Admin from "./pages/Admin";
 import AdminPages from "./pages/AdminPages";
+import AdminBlog from "./pages/AdminBlog";
 
 function Router() {
   // make sure to consider if you need authentication for certain routes
@@ -27,6 +28,7 @@ function Router() {
       <Route path="/blog/come-scegliere-centro-assistenza-caldaie-milano" component={BlogArticle1} />
       <Route path="/admin" component={Admin} />
       <Route path="/admin/pages" component={AdminPages} />
+      <Route path="/admin/blog" component={AdminBlog} />
       <Route path={"/404"} component={NotFound} />
       {/* Final fallback route */}
       <Route component={NotFound} />

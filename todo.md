@@ -90,3 +90,12 @@
 - [x] Test funzionalità editing
 - [x] Test sincronizzazione database
 - [x] Test autenticazione
+
+## Gestione Blog Admin
+
+- [x] Pagina lista articoli blog con tabella
+- [x] Form creazione nuovo articolo
+- [x] Form modifica articolo esistente
+- [x] Funzionalità elimina articolo
+- [x] Preview articolo
+- [x] Gestione stato pubblicato/bozza
