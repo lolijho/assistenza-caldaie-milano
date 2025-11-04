@@ -9,6 +9,8 @@ import Vaillant from "./pages/Vaillant";
 import Baxi from "./pages/Baxi";
 import Junkers from "./pages/Junkers";
 import Sylber from "./pages/Sylber";
+import Blog from "./pages/Blog";
+import BlogArticle1 from "./pages/BlogArticle1";
 
 function Router() {
   return (
@@ -18,6 +20,8 @@ function Router() {
       <Route path="/baxi" component={Baxi} />
       <Route path="/junkers" component={Junkers} />
       <Route path="/sylber" component={Sylber} />
+      <Route path="/blog" component={Blog} />
+      <Route path="/blog/come-scegliere-centro-assistenza-caldaie-milano" component={BlogArticle1} />
       <Route path={"/404"} component={NotFound} />
       {/* Final fallback route */}
       <Route component={NotFound} />

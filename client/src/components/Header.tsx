@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
-import { Phone, Menu } from "lucide-react";
+import { Menu, X, Phone } from "lucide-react";
+import { Link } from "wouter";
 import { useState } from "react";
 
 export default function Header() {
@@ -28,6 +29,9 @@ export default function Header() {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center gap-6">
+            <Link href="/blog" className="text-sm font-medium hover:text-primary transition-colors">
+              Blog
+            </Link>
             <button onClick={() => scrollToSection('servizi')} className="text-sm font-medium hover:text-primary transition-colors">
               Servizi
             </button>

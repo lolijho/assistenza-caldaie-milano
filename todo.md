@@ -43,3 +43,11 @@
 - [x] Aggiornamento nome in Footer
 - [x] Aggiornamento titolo e meta tags
 - [x] Verifica consistenza in tutte le pagine
+
+## Sezione Blog
+
+- [x] Creazione template articolo blog
+- [x] Creazione pagina lista articoli blog
+- [x] Scrittura articolo "Come scegliere il miglior centro assistenza caldaie a Milano"
+- [x] Aggiornamento navigazione con link al blog
+- [x] Aggiornamento routing per blog
