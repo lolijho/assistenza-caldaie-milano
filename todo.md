@@ -99,3 +99,11 @@
 - [x] Funzionalità elimina articolo
 - [x] Preview articolo
 - [x] Gestione stato pubblicato/bozza
+
+## Deploy e Repository
+
+- [ ] Creazione repository GitHub
+- [ ] Configurazione Railway per backend
+- [ ] Configurazione Netlify per frontend
+- [ ] Documentazione variabili ambiente
+- [ ] Guida deploy completa
