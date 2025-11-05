@@ -11,6 +11,15 @@
 [build.environment]
   # Versione Node.js da utilizzare
   NODE_VERSION = "22.13.0"
+  PNPM_VERSION = "10.4.1"
+
+# Redirect API calls to Railway backend
+# IMPORTANTE: Sostituire con l'URL effettivo di Railway dopo il deploy
+[[redirects]]
+  from = "/api/*"
+  to = "https://your-railway-app.railway.app/api/:splat"
+  status = 200
+  force = true
 
 # Configurazione per SPA (Single Page Application)
 # Reindirizza tutte le richieste all'index.html per gestire il routing client-side

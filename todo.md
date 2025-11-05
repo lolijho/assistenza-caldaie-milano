@@ -102,8 +102,8 @@
 
 ## Deploy e Repository
 
-- [ ] Creazione repository GitHub
-- [ ] Configurazione Railway per backend
-- [ ] Configurazione Netlify per frontend
-- [ ] Documentazione variabili ambiente
-- [ ] Guida deploy completa
+- [x] Creazione repository GitHub
+- [x] Configurazione Railway per backend
+- [x] Configurazione Netlify per frontend
+- [x] Documentazione variabili ambiente
+- [x] Guida deploy completa
